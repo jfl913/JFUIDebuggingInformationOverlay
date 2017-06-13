@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFUIDebuggingInformationOverlay_Example' do
+  pod 'JFUIDebuggingInformationOverlay', :path => '../'
+
+  target 'JFUIDebuggingInformationOverlay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
