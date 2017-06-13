@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05838D97CCA6D4326990C42F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		05838D97CCA6D4326990C42F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		455B4AED7AD237DFF018F7BF /* Pods-JFUIDebuggingInformationOverlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFUIDebuggingInformationOverlay_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFUIDebuggingInformationOverlay_Example/Pods-JFUIDebuggingInformationOverlay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JFUIDebuggingInformationOverlay_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFUIDebuggingInformationOverlay_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +58,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61765FEEC0E1FA2EDAF6E930 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		61765FEEC0E1FA2EDAF6E930 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		64A3B5C12904A24EA46C83A5 /* Pods-JFUIDebuggingInformationOverlay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFUIDebuggingInformationOverlay_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFUIDebuggingInformationOverlay_Tests/Pods-JFUIDebuggingInformationOverlay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D57261F12C08B3723485FD2 /* Pods_JFUIDebuggingInformationOverlay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFUIDebuggingInformationOverlay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4EE851E888CF92033CBEB7 /* JFUIDebuggingInformationOverlay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JFUIDebuggingInformationOverlay.podspec; path = ../JFUIDebuggingInformationOverlay.podspec; sourceTree = "<group>"; };
+		AE4EE851E888CF92033CBEB7 /* JFUIDebuggingInformationOverlay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JFUIDebuggingInformationOverlay.podspec; path = ../JFUIDebuggingInformationOverlay.podspec; sourceTree = "<group>"; };
 		B032D9B4930BFA39D2E54080 /* Pods_JFUIDebuggingInformationOverlay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JFUIDebuggingInformationOverlay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD74A1F8E948107D0481793B /* Pods-JFUIDebuggingInformationOverlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFUIDebuggingInformationOverlay_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFUIDebuggingInformationOverlay_Example/Pods-JFUIDebuggingInformationOverlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6569C5FEE65A62F9ADBCDA7 /* Pods-JFUIDebuggingInformationOverlay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFUIDebuggingInformationOverlay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFUIDebuggingInformationOverlay_Tests/Pods-JFUIDebuggingInformationOverlay_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "李俊峰";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = JM97U7CRE6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = CD74A1F8E948107D0481793B /* Pods-JFUIDebuggingInformationOverlay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM97U7CRE6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFUIDebuggingInformationOverlay/JFUIDebuggingInformationOverlay-Prefix.pch";
 				INFOPLIST_FILE = "JFUIDebuggingInformationOverlay/JFUIDebuggingInformationOverlay-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 455B4AED7AD237DFF018F7BF /* Pods-JFUIDebuggingInformationOverlay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JM97U7CRE6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFUIDebuggingInformationOverlay/JFUIDebuggingInformationOverlay-Prefix.pch";
 				INFOPLIST_FILE = "JFUIDebuggingInformationOverlay/JFUIDebuggingInformationOverlay-Info.plist";
